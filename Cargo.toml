@@ -1,0 +1,18 @@
+[package]
+name = "anki_chinese_poem_cards_generator"
+version = "0.1.2"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.87"
+clap = { version = "4.5.17", features = ["derive"] }
+genanki-rs = "0.4.0"
+indicatif = "0.17.8"
+rand = "0.8.5"
+regex = "1.10.6"
+reqwest = "0.12.7"
+scraper = "0.20.0"
+tokio = { version = "1.40.0", features = ["rt", "macros", "rt-multi-thread"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
+words-count = "0.1.6"
