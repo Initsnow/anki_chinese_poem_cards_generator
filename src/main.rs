@@ -329,7 +329,7 @@ impl ClozeDeck {
     fn model() -> Model {
         Model::new_with_options(
             16073923191231231,
-            "诗词(填空)",
+            "诗文(填空)",
             vec![Field::new("内容"), Field::new("题目"), Field::new("作者"),Field::new("朝代")],
             vec![Template::new("Card 1")
                 .qfmt(r#"<b>{{题目}}</b><span style="font-size: 16px">【{{朝代}}】{{作者}}</span><br>
@@ -431,7 +431,7 @@ impl SimpleDeck {
     fn model() -> Model {
         Model::new_with_options(
             16073923191231230,
-            "诗词",
+            "诗文",
             vec![
                 Field::new("内容"),
                 Field::new("题目"),
