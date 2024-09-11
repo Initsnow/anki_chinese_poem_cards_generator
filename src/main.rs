@@ -336,7 +336,7 @@ impl ClozeDeck {
     {{cloze:内容}}"#)
                 .afmt(r#"<b>{{题目}}</b><span style="font-size: 16px">【{{朝代}}】{{作者}}</span><br>
     {{cloze:内容}}"#)],Some(
-        ".card {\n font-family: 'LXGW Neo Zhisong','LXGW Neo Xihei','LXGW Neo WenKai',serif;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n \
+        ".card {\n font-family: 'LXGW Neo Zhisong','LXGW Neo Xihei','LXGW Neo WenKai',serif;\n font-size: 20px;\n color: black;\n background-color: white;\n}\n\n \
          .cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
     ),
     Some(ModelType::Cloze),None,
@@ -449,7 +449,6 @@ impl SimpleDeck {
                 r#".card {
     font-family: "LXGW Neo Zhisong","LXGW Neo Xihei","LXGW Neo WenKai",serif;
     font-size: 20px;
-    text-align: center;
     color: black;
     background-color: white;
 }
